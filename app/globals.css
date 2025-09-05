@@ -4,6 +4,33 @@
   themes: light --default, dark --prefersdark, cupcake, cyberpunk;
 }
 
+@layer components {
+  .superpose {
+    grid-area: 1 / 1;
+  }
+}
+
+@theme {
+  --animate-fly: fly 2s ease-in-out 0.2s 1 running;
+
+  @keyframes fly {
+
+    0%,
+    100% {
+      transform: translate(0px);
+    }
+
+    33%,
+    66% {
+      transform: translate(50px);
+    }
+
+    67% {
+      transform: translate(-50px);
+    }
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
