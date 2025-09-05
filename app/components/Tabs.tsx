@@ -12,11 +12,11 @@ export default function Tabs() {
     const [currentHash, setCurrentHash] = useState('')
 
     return (
-        <div role="tablist" className="tabs">
+        <div role="tablist" className="tabs flex-1 flex-nowrap">
             {tabs.map(tab => (
                 <Link key={tab.href}
                     onClick={() => setCurrentHash(tab.href)}
-                    className={`tab px-8 ${currentHash === tab.href && 'tab-active'}`}
+                    className={`tab flex-1 min-w-16 ${currentHash === tab.href && 'tab-active'}`}
                     href={tab.href}
                 >
                     {tab.label}
