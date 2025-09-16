@@ -1,6 +1,13 @@
+import type { CareerData } from "../types"
 import Lorem from "./Lorem"
 
-export default function Career() {
+type CareerProps = {
+    CareerData?: CareerData;
+}
+
+export default function Career({CareerData}:CareerProps) {
+    if (!CareerData) return null;
+    
     return (
         <div id="section-career" className="section">
             <p>Career section</p>

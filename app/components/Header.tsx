@@ -5,7 +5,7 @@ import Tabs from "./Tabs";
 import Link from "next/link";
 
 export default function Header() {
-    const [coor, setCoor] = useState()
+    
     return (
         <header className="sticky top-0">
             <div className="navbar bg-base-100 shadow-sm">
