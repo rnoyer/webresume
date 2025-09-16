@@ -1,0 +1,194 @@
+{
+    "hero": {
+        "name": "Romain Noyer",
+        "title": "Frontend developer",
+        "subtitle": "Former IT Project Manager"
+    },
+    "skills": {
+        "dev_skills": [
+            "TypeScript",
+            "React JS",
+            "Next.js",
+            "Vue.js",
+            "Nuxt.js",
+            "Tailwind CSS",
+            "DaisyUI",
+            "Python"
+        ],
+        "previous_experience_skills": [
+            "SCRUM agile framework",
+            "Project lead",
+            "Team Management",
+            "Fonctional and Operational Security",
+            "Network and WiFi engineering"
+        ],
+        "languages": [
+            {
+                "language": "French",
+                "level": "Native"
+            },
+            {
+                "language": "English",
+                "level": "Professional proficiency"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Resume Website",
+            "link": "",
+            "deprecated": false
+        },
+        {
+            "title": "Personal Notebook",
+            "link": "",
+            "deprecated": false
+        },
+        {
+            "title": "echo",
+            "link": "",
+            "deprecated": false
+        },
+        {
+            "title": "Petits Plats",
+            "link": "",
+            "deprecated": false
+        },
+        {
+            "title": "FishEye",
+            "link": "",
+            "deprecated": false
+        },
+        {
+            "title": "Ohmyfood",
+            "link": "",
+            "deprecated": true
+        },
+        {
+            "title": "Tale Illustrator Website",
+            "link": "",
+            "deprecated": true
+        }
+    ],
+    "career_path": [
+        {
+            "role": "Frontend Developer",
+            "company": "Helloasso",
+            "location": "Bordeaux, France",
+            "description": "Short Description",
+            "timeframe": "2023 to 2025",
+            "recent": true
+        },
+        {
+            "role": "SCRUM Master",
+            "company": "Fieldbox.ai",
+            "location": "Bordeaux, France",
+            "description": "Short Description",
+            "timeframe": "2022 to 2023",
+            "recent": true
+        },
+        {
+            "role": "QA Tester",
+            "company": "Fieldbox.ai",
+            "location": "Bordeaux, France",
+            "description": "Short Description",
+            "timeframe": "2022 to 2023",
+            "recent": true
+        },
+        {
+            "role": "IT Project Manager and Product Owner",
+            "company": "Fieldbox.ai",
+            "location": "Bordeaux, France",
+            "description": "Short Description",
+            "timeframe": "2020 to 2021",
+            "recent": true
+        },
+        {
+            "role": "IT Project Manager",
+            "company": "Sogeti part of Capgemini",
+            "location": "Bordeaux, France",
+            "description": "Short Description",
+            "timeframe": "2020 to 2021",
+            "recent": false
+        },
+        {
+            "role": "IT Project Manager (Security and Telecoms)",
+            "company": "Openminded part of Accenture",
+            "location": "Paris, France",
+            "description": "Short Description",
+            "timeframe": "2015 to 2017",
+            "recent": false
+        },
+        {
+            "role": "Delivery Manager",
+            "company": "CGI",
+            "location": "Paris, France",
+            "description": "Short Description",
+            "timeframe": "2014",
+            "recent": false
+        },
+        {
+            "role": "Network and Security Engineer",
+            "company": "CGI",
+            "location": "Paris, France",
+            "description": "Short Description",
+            "timeframe": "2013",
+            "recent": false
+        },
+        {
+            "role": "Assistant IT Security Project Manager",
+            "company": "Allianz",
+            "location": "Paris, France",
+            "description": "Short Description",
+            "timeframe": "2010 to 2012",
+            "recent": false
+        }
+    ],
+    "education": [
+        {
+            "title": "Web developer",
+            "school": "OpenClassroom",
+            "location": "Bordeaux, France",
+            "timeframe": "2025"
+        },
+        {
+            "title": "Data Science Bootcamp",
+            "school": "Le Wagon",
+            "location": "Bordeaux, France",
+            "timeframe": "2022"
+        },
+        {
+            "title": "Master degree: Security, Network and Systems",
+            "school": "ESGI",
+            "location": "Paris, France",
+            "timeframe": "2015"
+        }
+    ],
+    "hobbies": [
+        "Dad",
+        "3d modelism (blender)",
+        "Kite",
+        "Sports",
+        "Recover from my dad duties"
+    ],
+    "contact": [
+        {
+            "method": "Email",
+            "value": "romain.noyer@gmail.com",
+            "link": "mailto:romain.noyer@gmail.com",
+            "icon": ""
+        },
+        {
+            "method": "LinkedIn",
+            "value": "linkedin.com/in/rnoyer/",
+            "link": "https://www.linkedin.com/in/rnoyer/",
+            "icon": ""
+        },
+        {
+            "method": "Phone",
+            "value": "+33698052569",
+            "link": "tel:+33698052569",
+            "icon": ""
+        }
+    ]
+}
