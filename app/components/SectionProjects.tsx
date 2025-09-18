@@ -1,5 +1,4 @@
 import { ProjectData } from "../types"
-import Lorem from "./Lorem"
 
 type ProjectsProps = {
     ProjectData?: ProjectData
