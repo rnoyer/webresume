@@ -7,7 +7,7 @@ export type HeroData = {
 export type SkillData = {
     dev_skills: string[];
     previous_experience_skills: string[];
-    languages: {language: string; level: string}[];
+    languages: { language: string; level: string }[];
 }
 
 export type ProjectData = {
@@ -16,14 +16,16 @@ export type ProjectData = {
     deprecated: boolean;
 }[];
 
-export type CareerData = {
+export type Job = {
     role: string;
     company: string;
     location: string;
     description: string;
     timeframe: string;
     recent: boolean;
-}[];
+};
+
+export type CareerData = Job[];
 
 export type EducationData = {
     title: string;
